@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Movies</title>
+    <link rel="icon" href="/images/movies/logo_large.png" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/lib/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="../assets/lib/jquery 3.5.0.js"></script>
+    <script src="../assets/lib/owl.carousel.js"></script>
+
+    <!--main script file-->
+    <script src="../assets/js/main-script.js"></script>
+
+
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <!-- <link rel="stylesheet" href="/assets/lib/bootstrap.css"> -->
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" integrity="sha256-t2kyTgkh+fZJYRET5l9Sjrrl4UDain5jxdbqe8ejO8A=" crossorigin="anonymous" />
+
+    <!-- owl carousel script -->
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <main id="mainContainer" class="p-b-40">
+        <div>
+            <header class="d-flex space-between flex-center flex-middle">
+                <div class="nav-links d-flex flex-center flex-middle">
+                    <a href="/Dashboard/home.html">
+                        <img id="MyMovie" src="/images/movies/logo.png" alt="">
+                    </a>
+                    <a href="/Dashboard/home.html">
+                        <h2 class="logo logo-text f-s-28 m-r-25 ">My Movies</h2>
+                    </a>
+                    <a href="" class="nav-item home">Home</a>
+                    <a href="tvshow.html" class="nav-item">TV Show</a>
+                    <a href="bollywood.html" class="nav-item">Bollywood</a>
+                    <a href="" class="nav-item latest">Latest</a>
+                    <a href="mylist.html" class="nav-item">My List</a>
+                </div>
+                <div class="righticons d-flex flex-end flex-middle">
+                    <a  href="/Dashboard/subscription.html">Subscribe</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a  href="search.html"><img src="../images/icons/search.svg" alt="search icon"></a>
+                    
+                    <div class="dropdown">
+                        <!-- <img src="../images/icons/user-image-green.png" alt="user profile icon" class="user-icon"> -->
+                             
+                        <i class="fa-solid fa-user user"></i><span class="profile-arrow">
+                        </span>
+
+                        <div class="dropdown-content">
+                            <div class="profile-links">
+                                <a href="#" class="profile-item d-flex flex-middle">
+                                    <img src="../images/icons/user1.png" alt="user profile icon" class="user-icon">
+                                    <span>Aryaman</span>
+                                </a>
+                                <a href="#" class="profile-item d-flex flex-middle">
+                                    <img src="../images/icons/user2.png" alt="user profile icon" class="user-icon">
+                                    <span>Saurabh</span>
+                                </a>
+                                <a href="#" class="profile-item d-flex flex-middle">
+                                    <img src="../images/icons/user3.png" alt="user profile icon" class="user-icon">
+                                    <span>Raghav</span>
+                                </a>
+                            </div>
+                            <!-- <div class="line"></div> -->
+                            <div class="links d-flex direction-column">
+                                <a href="account.html">Accout details</a>
+                                <a href="#">Help Center</a>
+                                <a href="/">Sign Out of MyMovies</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </header>
+
+            <!-- hero section -->
+            <div class="">
+                <section id="browse-dashboard" class=" d-flex direction-column flex-start middle-align">
+                    <div>
+                        <!--trailer video-->
+                        <video class="hero-background-image" id="hero-video"
+                            poster="../images/movies/avata.jpg">
+
+                            <source src="../images/movies/video/Avatar_ The Way of Water _ Official Trailer.mp4"
+                                type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        
+                    </div>
+                    
+                </section>
+            </div>
+
+            <!--paretn div with black bg after main hero section-->
+            <div class="black-background">
+
+
+                <!--hollywood new release -->
+                <section id="mylist" class="container">
+
+                    <h4 class="mylist-heading">
+                        Hollywood TV show / Action, Mystery
+                    </h4>
+                    <div class="mylist-container d-flex flex-start flex-middle flex-no-wrap owl-carousel">
+                        <div class="video">
+                                <img src="../images/movies/never_have_i_ever.jpg" alt="">
+                                
+
+                            <div class="video-description d-flex flex-end direction-column">
+                                <div class="play-button"> 
+                                    <!-- to add play button -->
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="heading f-w-8 text-shadow">
+                                        Never Have I Ever
+                                    </h4>
+                                </div>
+                                <div class="info d-flex flex-middle flex-no-wrap">
+                                    <p class="rated text-shadow"><strong>18+</strong></p>
+                                    <p class="season-count text-shadow"> 1 Season</p>
+                                </div>
+                                <div class="genere d-flex flex-no-wrap text-shadow">
+                                    <p>#Nudeity</p>
+                                    <p>#Romance</p>
+                                    <p>#Love</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt="">
+
+                            <div class="video-description d-flex flex-end direction-column">
+                                <div class="play-button">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="heading f-w-8 text-shadow">
+                                        WE'RE THE MILERS
+                                    </h4>
+                                </div>
+                                <div class="info d-flex flex-middle flex-no-wrap">
+                                    <p class="rated text-shadow"><strong>18+</strong></p>
+                                    <p class="season-count text-shadow">Movie</p>
+                                </div>
+                                <div class="genere d-flex flex-no-wrap text-shadow">
+                                    <p>#Nudeity</p>
+                                    <p>#fiction</p>
+                                    <p>#Comedy</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <img src="/images/movies/extraction.jpg" alt="">
+
+                            <div class="video-description d-flex flex-end direction-column">
+                                <div class="play-button">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="heading f-w-8 text-shadow">
+                                        Extraction
+                                    </h4>
+                                </div>
+                                <div class="info d-flex flex-middle flex-no-wrap">
+                                    <p class="rated text-shadow"><strong>18+</strong></p>
+                                    <p class="season-count text-shadow">Movie</p>
+                                </div>
+                                <div class="genere d-flex flex-no-wrap text-shadow">
+                                    <p>#Adrenalin</p>
+                                    <p>#Wild</p>
+                                    <p>#Action</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video">
+                            
+                            <img src="../images/movies/never_have_i_ever.jpg" alt="">
+
+                            <div class="video-description d-flex flex-end direction-column">
+                                <div class="play-button">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="heading f-w-8 text-shadow">
+                                        Never Have I Ever
+                                    </h4>
+                                </div>
+                                <div class="info d-flex flex-middle flex-no-wrap">
+                                    <p class="rated text-shadow"><strong>18+</strong></p>
+                                    <p class="season-count text-shadow"> 1 Season</p>
+                                </div>
+                                <div class="genere d-flex flex-no-wrap text-shadow">
+                                    <p>#Nudeity</p>
+                                    <p>#Romance</p>
+                                    <p>#Love</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt="">
+
+                            <div class="video-description d-flex flex-end direction-column">
+                                <div class="play-button">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="heading f-w-8 text-shadow">
+                                        WE'RE THE MILERS
+                                    </h4>
+                                </div>
+                                <div class="info d-flex flex-middle flex-no-wrap">
+                                    <p class="rated text-shadow"><strong>18+</strong></p>
+                                    <p class="season-count text-shadow">Movie</p>
+                                </div>
+                                <div class="genere d-flex flex-no-wrap text-shadow">
+                                    <p>#Nudeity</p>
+                                    <p>#fiction</p>
+                                    <p>#Comedy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video">
+                                <img src="/images/movies/never_have_i_ever.jpg" alt="">
+                                    
+
+                            <div class="video-description d-flex flex-end direction-column">
+                                <div class="play-button">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="heading f-w-8 text-shadow">
+                                        Never Have I Ever
+                                    </h4>
+                                </div>
+                                <div class="info d-flex flex-middle flex-no-wrap">
+                                    <p class="rated text-shadow"><strong>18+</strong></p>
+                                    <p class="season-count text-shadow"> 1 Season</p>
+                                </div>
+                                <div class="genere d-flex flex-no-wrap text-shadow">
+                                    <p>#Nudeity</p>
+                                    <p>#Romance</p>
+                                    <p>#Love</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+
+
+                <!--new release -->
+                <section id="continue-watching" class="container p-t-40">
+                    <h4 class="continue-watching-heading">
+                        New release original netflix
+                    </h4>
+                    <div class="continue-watching-container d-flex flex-start flex-middle flex-no-wrap owl-carousel">
+
+                                <div class="video">
+                                    <img src="../images/movies/horrible-bosses-middle-poster.webp" alt="">
+        
+                                    <div class="video-description d-flex flex-end direction-column">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="heading f-w-8 text-shadow">
+                                                Horrible Bosses
+                                            </h4>
+                                        </div>
+                                        <div class="info d-flex flex-middle flex-no-wrap">
+                                            <p class="rated text-shadow"><strong>18+</strong></p>
+                                            <p class="season-count text-shadow">Movie</p>
+                                        </div>
+                                        <div class="genere d-flex flex-no-wrap text-shadow">
+                                            <p>#Nudeity</p>
+                                            <p>#sex</p>
+                                            <p>#Comedy</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                        
+                                <div class="video">
+                                    <img src="../images/movies/kabir-singh-poster.webp" alt="">
+        
+                                    <div class="video-description d-flex flex-end direction-column">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="heading f-w-8 text-shadow">
+                                                Kabir Singh
+                                            </h4>
+                                        </div>
+                                        <div class="info d-flex flex-middle flex-no-wrap">
+                                            <p class="rated text-shadow"><strong>18+</strong></p>
+                                            <p class="season-count text-shadow">Movie</p>
+                                        </div>
+                                        <div class="genere d-flex flex-no-wrap text-shadow">
+                                            <p>#Nudeity</p>
+                                            <p>#crime</p>
+                                            <p>#Love</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="video">
+                                    <img src="/images/movies/never_have_i_ever.jpg" alt="">
+        
+                                    <div class="video-description d-flex flex-end direction-column">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="heading f-w-8 text-shadow">
+                                                Never Have I Ever
+                                            </h4>
+                                        </div>
+                                        <div class="info d-flex flex-middle flex-no-wrap">
+                                            <p class="rated text-shadow"><strong>18+</strong></p>
+                                            <p class="season-count text-shadow"> 1 Season</p>
+                                        </div>
+                                        <div class="genere d-flex flex-no-wrap text-shadow">
+                                            <p>#Nudeity</p>
+                                            <p>#Romance</p>
+                                            <p>#Love</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="video">
+                                    <img src="../images/movies/we-are-the-milers-poster-little.webp" alt="">
+        
+                                    <div class="video-description d-flex flex-end direction-column">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="heading f-w-8 text-shadow">
+                                                WE'RE THE MILERS
+                                            </h4>
+                                        </div>
+                                        <div class="info d-flex flex-middle flex-no-wrap">
+                                            <p class="rated text-shadow"><strong>18+</strong></p>
+                                            <p class="season-count text-shadow">Movie</p>
+                                        </div>
+                                        <div class="genere d-flex flex-no-wrap text-shadow">
+                                            <p>#Nudeity</p>
+                                            <p>#fiction</p>
+                                            <p>#Comedy</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="video">
+                                    <img src="/images/movies/extraction.jpg" alt="">
+        
+                                    <div class="video-description d-flex flex-end direction-column">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="heading f-w-8 text-shadow">
+                                                Extraction
+                                            </h4>
+                                        </div>
+                                        <div class="info d-flex flex-middle flex-no-wrap">
+                                            <p class="rated text-shadow"><strong>18+</strong></p>
+                                            <p class="season-count text-shadow">Movie</p>
+                                        </div>
+                                        <div class="genere d-flex flex-no-wrap text-shadow">
+                                            <p>#Adrenalin</p>
+                                            <p>#Wild</p>
+                                            <p>#Action</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="video">
+                                    <img src="../images/movies/kabir-singh-poster.webp" alt="">
+        
+                                    <div class="video-description d-flex flex-end direction-column">
+                                        <div class="play-button">
+                                            <svg viewBox="0 0 24 24">
+                                                <path d="M6 4l15 8-15 8z" fill="black"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="heading f-w-8 text-shadow">
+                                                Kabir Singh
+                                            </h4>
+                                        </div>
+                                        <div class="info d-flex flex-middle flex-no-wrap">
+                                            <p class="rated text-shadow"><strong>18+</strong></p>
+                                            <p class="season-count text-shadow">Movie</p>
+                                        </div>
+                                        <div class="genere d-flex flex-no-wrap text-shadow">
+                                            <p>#Nudeity</p>
+                                            <p>#crime</p>
+                                            <p>#Love</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                    </div>
+                </section>
+
+                <!--Romantic Movies-->
+                <section id="romantic" class="container p-t-50">
+                    <h4 class="romantic-heading">
+                        Romantic Movies
+                    </h4>
+                    <div class="romantic-container d-flex flex-start flex-middle flex-no-wrap owl-carousel">
+                        <a href="#">
+                            <img src="../images/movies/horrible-bosses-middle-poster.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        
+                        <a href="#">
+                            <img src="../images/movies/extraction.jpg" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="/images/movies/never_have_i_ever.jpg" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+
+                        <a href="#">
+                            <img src="../images/movies/kabir-singh-poster.webp" alt=""
+                            class="mylist-img p-r-10 p-t-10 image-size item"></a>
+
+                    </div>
+                </section>
+
+                <!--big poster screen left poster right content-->
+                <section class="big-section d-flex flex-start container">
+                    <img src="../images/movies/we are the milers big poster.jpg" alt="">
+
+                    <div class="right-side">
+                        <div class="contentlogo">
+                            <img src="../images/movies/milers logo.webp" alt="content logo"
+                                class="show-logo" />
+                        </div>
+
+                        <!--top 10 ranking badge svg-->
+                        <div class="ranking d-flex m-t-20 flex-middle">
+                            <span class="p-l-10 f-s-24 f-w-8"> [     #1 in India Today    ]</span>
+                        </div>
+
+                        <div class="synopsis m-t-20" style="max-width: 500px;">
+                            <p class="f-s-20">
+                                Sex. It's on teenage minds. It's messing with their heads. And this kid is the least
+                                likely
+                                sexpert in the schoolyard.
+                            </p>
+                        </div>
+                        <div class="buttons-container m-t-20">
+                            <button class="play-button"><span>
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M6 4l15 8-15 8z" fill="currentColor"></path>
+                                    </svg>
+                                </span> Play</button>
+
+                            <button class="more-info-button m-t-20"><span>
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-2 0a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8zm-9 6v-7h2v7h-2zm1-8.75a1.21 1.21 0 0 1-.877-.364A1.188 1.188 0 0 1 10.75 8c0-.348.123-.644.372-.886.247-.242.54-.364.878-.364.337 0 .63.122.877.364.248.242.373.538.373.886s-.124.644-.373.886A1.21 1.21 0 0 1 12 9.25z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span> More Info</button>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--Get In On the Action-->
+                <section id="romantic" class="container p-t-40">
+                    <h4 class="romantic-heading">
+                        Get In On the Action
+                    </h4>
+                    <div class="romantic-container d-flex flex-start flex-middle flex-no-wrap owl-carousel">
+                        <a href="#">
+                            <img src="../images/movies/kabir-singh-poster.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/horrible-bosses-middle-poster.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/extraction.jpg" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt=""
+                            class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/never_have_i_ever.jpg" alt=""
+                            class="mylist-img p-r-10 p-t-10 image-size item"></a>
+
+                        <a href="#">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+
+                    </div>
+                </section>
+
+                <!--Bingeworthy TV Shows-->
+               
+
+
+                <!--Hollywood Action movies-->
+                <section id="romantic" class="container p-t-40">
+                    <h4 class="romantic-heading">
+                        Hollywood Action Movies
+                    </h4>
+                    <div class="romantic-container d-flex flex-start flex-middle flex-no-wrap owl-carousel">
+                        <a href="#">
+                            <img src="../images/movies/horrible-bosses-middle-poster.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/kabir-singh-poster.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/extraction.jpg" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="/images/movies/never_have_i_ever.jpg" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                        <a href="#">
+                            <img src="../images/movies/we-are-the-milers-poster-little.webp" alt=""
+                                class="mylist-img p-r-10 p-t-10 image-size item"></a>
+
+
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <footer class="mainfooter d-flex direction-column space-between" id=" footer">
+            <div class="container footer-container flex-start">
+                <div class="widgets d-flex space-between">
+                    <div class="first-widget">
+                        <ul>
+                            <li class="list-item">Audio and Subtitles</li>
+                            <li class="list-item">Media Center</li>
+                            <li class="list-item">Privacy</li>
+                            <li class="list-item">Contact us</li>
+                        </ul>
+                    </div>
+                    <div class="second-widget">
+                        <ul>
+                            <li class="list-item">Help Center</li>
+                            <li class="list-item">Cookie</li>
+                            <li class="list-item">Jobs</li>
+                        </ul>
+                    </div>
+                    <div class="third-widget">
+                        <ul>
+                            <li class="list-item">Audio Description</li>
+                            <li class="list-item">Investor Relations</li>
+                            <li class="list-item">Legal Notice</li>
+                        </ul>
+                    </div>
+                    <div class="forth-widget">
+                        <ul>
+                            <li class="list-item">Gift Card</li>
+                            <li class="list-item">Term Of Use</li>
+                            <li class="list-item">Corporate Information</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="button service">Service Code</button>
+                <p class="copyright">All Rights Reserved | Aryaman Agrawal</p>
+
+            </div>
+
+
+        </footer>
+        </div>
+    </main>
+
+    <div class="footer-navigation d-flex space-between">
+        <a href="browse.html" class="nav-item active">
+            <i class="fa fa-home" aria-hidden="true"></i> </br>
+            <span>Home</span>
+        </a>
+        <a href="search.html" class="nav-item">
+            <i class="fa fa-search" aria-hidden="true"></i></br>
+            Search
+        </a>
+        <a href="latest.html" class="nav-item">
+            <i class="fa fa-film" aria-hidden="true"></i></br>
+            Latest
+        </a>
+        <a href="user-profile/home.html" class="nav-item">
+            <i class="fa fa-user" aria-hidden="true"></i></br>
+            Account
+        </a>
+    </div>
+</body>
+
+</html>
