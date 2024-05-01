@@ -1,0 +1,87 @@
+.body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.redd.it/zjgs096khv591.jpg');
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    opacity: 0.9;
+    align-content: center;
+    justify-content: center;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+#login_MovieLogo{
+    height: 150px;
+    width: 150px;
+}
+p a{
+    color: blue;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a.btn-info {
+    color: white;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto 20px;
+} 

@@ -1,0 +1,55 @@
+<div class="body">
+    <div class="login-container">
+        <div class="login-form">
+            <div class="logo">
+                <img id="login_MovieLogo" src="assets/images/movies/logo.png" alt="MyMovies Logo">
+            </div>
+            <h2 class="text-center">Login to MyMovies</h2>
+            <form id="loginForm" onsubmit="return login()">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn-primary"><a href="/home">Login</a></button>
+            </form>
+            <div class="text-center">
+                <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+                <a href="/subscription" class="btn-info">Subscribe</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    function login() {
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        // Perform simple validation
+        if (username === '' || password === '') {
+            alert('Please enter both username and password.');
+            return false;
+        }
+
+        // Perform authentication - This is just a basic example, in real application, you would check credentials against a backend/database
+        if (username === 'admin' && password === 'password') {
+            alert('Login successful!');
+            window.location.href = '/home'; // Redirect to the home page after successful login
+            return false; // Prevent form submission
+        } else {
+            alert('Invalid username or password. Please try again.');
+            return false;
+        }
+    }
+
+    function googleLogin() {
+        // Perform Google login logic here
+        alert('Google login clicked.');
+    }
+</script>
